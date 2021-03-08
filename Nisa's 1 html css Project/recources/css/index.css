@@ -1,0 +1,101 @@
+
+body {
+    background-size: cover;
+}
+.background-image {
+    background-image: url("https://i.ibb.co/TB0d39k/Mertasari-beach-bali.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+    background-position: center;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+.background-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    font-size: 35px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+.nav-bar {
+    box-sizing: border-box;
+} 
+ 
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(109, 120, 150);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(247, 240, 240);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+h2 {
+    color: grey;
+    font-family: cursive;
+    font-size: 45px;
+    text-align: center;
+}
+#Aboutme {
+    box-sizing: inherit;
+    width: auto;
+    height: auto;
+    font-family: cursive;
+}  
+.my-padding {
+    padding-bottom: 64px!important;
+    padding-top: 64px!important;
+}
+.my-container {
+    padding: 0.01em 16px;
+}
+.my-content {
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+ img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    width: 200px;
+    float: left;
+    margin-right: 25px;
+    overflow: auto;
+ }
+ #my-profile p {
+   font-size: 20px;
+   
+
+ }
